@@ -1,0 +1,8 @@
+build_mode,cuda_compiler,backend,kernel,host_memory,device,compute_major,compute_minor,cuda_runtime,cuda_driver,width,height,filter,iterations,warmup,allocation_ms,h2d_ms,filter_upload_ms,kernel_ms,d2h_ms,pipeline_ms,kernel_gflops,correct,max_absolute_error,mismatches
+ptx_compatibility,12.0.140,cpu,reference,pageable,"host CPU",0,0,0,0,2048,1328,high-pass,100,10,0,0,0,4.60385709,0,4.60385709,10.6335603045,true,0,0
+ptx_compatibility,12.0.140,gpu,naive,pageable,"NVIDIA GeForce RTX 5060 Ti",12,0,12000,13020,2048,1328,high-pass,100,10,3.163885,0.81580568,0.02729622,0.0373043194413,0.78366775,2.16733618,1312.32502652,true,0,0
+ptx_compatibility,12.0.140,gpu,constant,pageable,"NVIDIA GeForce RTX 5060 Ti",12,0,12000,13020,2048,1328,high-pass,100,10,3.124579,0.81571713,0.03070354,0.0331798419356,0.78440846,2.1958401,1475.45585344,true,0,0
+ptx_compatibility,12.0.140,gpu,tiled,pageable,"NVIDIA GeForce RTX 5060 Ti",12,0,12000,13020,2048,1328,high-pass,100,10,2.75695,0.81542992,0.03062941,0.0398457609117,0.78406942,2.16870386,1228.62233974,true,0,0
+ptx_compatibility,12.0.140,gpu,naive,pinned,"NVIDIA GeForce RTX 5060 Ti",12,0,12000,13020,2048,1328,high-pass,100,10,3.536142,0.77279863,0.02877167,0.0375760011375,0.75685621,2.13569273,1302.83666484,true,0,0
+ptx_compatibility,12.0.140,gpu,constant,pinned,"NVIDIA GeForce RTX 5060 Ti",12,0,12000,13020,2048,1328,high-pass,100,10,3.843656,0.77227199,0.0231969,0.0268204808235,0.75657506,2.10993925,1825.29882004,true,0,0
+ptx_compatibility,12.0.140,gpu,tiled,pinned,"NVIDIA GeForce RTX 5060 Ti",12,0,12000,13020,2048,1328,high-pass,100,10,3.697399,0.77204893,0.02559274,0.0397868789732,0.75690121,2.12569401,1230.4406192,true,0,0
